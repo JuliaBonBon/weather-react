@@ -2,3 +2,13 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+footer {
+  font-family: sans-serif;
+  margin: 45px;
+  color: #594c4a;
+}
+
+a {
+  color: #e2b873;
+}
