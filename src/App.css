@@ -1,14 +1,10 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 600px;
+  margin: 45px auto;
 }
 
-footer {
-  font-family: sans-serif;
-  margin: 45px;
-  color: #594c4a;
-}
-
-a {
-  color: #e2b873;
+.App footer {
+  font-size: 14px;
+  margin: 5px 0;
 }
