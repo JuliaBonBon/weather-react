@@ -30,16 +30,15 @@ li {
   line-height: 22px;
 }
 
-.Weather img {
+.Weather canvas {
   display: inline-block;
-  height: 60px;
-  margin-bottom: 30px;
-  width: 60px;
+  margin-bottom: -12px;
 }
 
 .Weather .temperature {
   display: inline-block;
-  margin-left: 12px;
+  margin-left: 15px;
+  position: relative;
   font-size: 50px;
   color: rgb(33, 33, 33);
 }
