@@ -31,15 +31,15 @@ li {
 }
 
 .Weather canvas {
-  display: inline-block;
-  margin-bottom: -12px;
+  margin: 15px auto;
 }
 
 .Weather .temperature {
   display: inline-block;
   margin-left: 15px;
   position: relative;
-  font-size: 50px;
+  font-size: 60px;
+  bottom: 4px;
   color: rgb(33, 33, 33);
 }
 
@@ -51,4 +51,8 @@ li {
   margin-top: 11px;
   margin-left: 1px;
   vertical-align: top;
+}
+
+.link {
+  text-decoration: none;
 }
