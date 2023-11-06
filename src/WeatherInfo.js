@@ -18,7 +18,7 @@ export default function WeatherInfo(props) {
         <div className="col-6">
           <div className="d-flex">
             <div className="float-left">
-              <WeatherIcon code={props.data.icon} size={54} />
+              <WeatherIcon code={props.data.icon} size={58} />
             </div>
             <div className="float-left">
               <WeatherTemperature celsius={props.data.temperature} />
@@ -27,7 +27,7 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-6">
           <ul>
-            <li>Feels like:{Math.round(props.data.feelsLike)}°C</li>
+            <li>Feels like: {Math.round(props.data.feelsLike)}°C</li>
             <li>Humidity: {props.data.humidity}%</li>
             <li>Wind: {props.data.wind}km/h</li>
           </ul>

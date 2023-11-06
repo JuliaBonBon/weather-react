@@ -1,5 +1,7 @@
 import Weather from "./Weather";
 import "./App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function App() {
   return (
@@ -13,8 +15,10 @@ export default function App() {
             rel="noreferrer"
           >
             Open-source code {""}
-          </a>
+          </a>{" "}
           {""}
+          <FontAwesomeIcon icon={faGithub} />
+          {""} {""}
           by Yuliia Drivinska
         </footer>
       </div>
